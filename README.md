@@ -1,19 +1,43 @@
-# Homework3
+# Flutter Navigation App
 
-A new Flutter project created with FlutLab - https://flutlab.io
+This Flutter project showcases a simple mobile app with two screens, illustrating navigation and data transfer.
 
-## Getting Started
+## Running the Project
 
-A few resources to get you started if this is your first Flutter project:
+1. Ensure Flutter and Dart are installed on your machine.
 
-- https://flutter.dev/docs/get-started/codelab
-- https://flutter.dev/docs/cookbook
+2. Clone the repository:
 
-For help getting started with Flutter, view our
-https://flutter.dev/docs, which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    ```bash
+    git clone https://github.com/your-username/your-flutter-app.git
+    ```
 
-## Getting Started: FlutLab - Flutter Online IDE
+3. Navigate to the project directory:
 
-- How to use FlutLab? Please, view our https://flutlab.io/docs
-- Join the discussion and conversation on https://flutlab.io/residents
+    ```bash
+    cd your-flutter-app
+    ```
+
+4. Launch the app:
+
+    ```bash
+    flutter run
+    ```
+
+5. Interact with the app on the emulator or connected device.
+
+## Project Overview
+
+- **lib/main.dart:** The starting point of the app, defining the primary `MyApp` widget.
+
+- **lib/screens/screen1.dart:** The initial screen featuring a button for transitioning to the second screen.
+
+- **lib/screens/screen2.dart:** The second screen exhibiting data from the first screen and a button for returning.
+
+## Dependencies
+
+This project relies solely on Flutter's core packages, without any external dependencies.
+
+## Licensing
+
+This project is licensed under the MIT License; refer to the [LICENSE](LICENSE) file for details.
